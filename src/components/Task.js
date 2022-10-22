@@ -1,10 +1,11 @@
+import '../styles/TodoStyles.css'
 
 export const Task = (props) => {
     return (
-            <div className={'task'}>
-                <h2>{props.taskName}</h2>
-                <button onClick={() => props.deleteTask(props.id)}> X </button>
-                <button onClick={() => props.completeTask(props.id)}>Complete</button>
+            <div className={'task-box'}>
+                <h2 className={'task-name'}>{props.taskName}</h2>
+                <button className={'delete-btn'} onClick={() => props.deleteTask(props.id)}> X </button>
+                <button className={'complete-btn'} onClick={() => console.log(props.completeTask(props.id) !== props.id)}>Complete</button>
             </div>
         )
 }
