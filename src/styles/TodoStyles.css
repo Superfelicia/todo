@@ -28,6 +28,13 @@
     height: 20px;
 }
 
+.edit-btn {
+    justify-content: flex-end;
+    align-self: center;
+    width: 60px;
+    height: 20px;
+}
+
 .todo-box {
     display: flex;
     flex-direction: column;
