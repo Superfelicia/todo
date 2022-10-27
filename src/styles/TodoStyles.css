@@ -6,48 +6,93 @@
 
 .task-box {
     display: flex;
+    justify-content: space-around;
     align-content: center;
-    width: 200px;
+    width: 350px;
 }
 
 .task-name {
-    justify-content: flex-start;
+    display: flex;
+    justify-self: center;
+    margin-right: 10px;
+}
+
+.edit-btn-box {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    width: 100px;
+}
+
+.open-edit-btn {
+    justify-content: flex-end;
+    align-self: center;
+    width: 40px;
+    height: 20px;
 }
 
 .delete-btn {
     justify-content: flex-end;
     align-self: center;
-    width: 50px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
+    border-radius: 70px;
 }
 
 .complete-btn {
     justify-content: flex-end;
     align-self: center;
-    width: 70px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
+    border-radius: 70px;
 }
 
 .edit-btn {
     justify-content: flex-end;
     align-self: center;
-    width: 60px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
+    border-radius: 70px;
 }
 
 .todo-box {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-content: center;
+    width: 350px;
+    height: 550px;
+    border-style: solid;
+}
+
+.header-text, .task-text {
+    display: flex;
+    justify-content: center;
+}
+
+.add-task {
+    display: flex;
+    justify-content: center;
 }
 
 .task-list {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    flex-direction: column;
     background-color: rgba(0,0,0,0);
 }
 
 .completed-task-list {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     background-color: lawngreen;
+}
+
+.edit-input {
+    display: flex;
+    justify-content: center;
 }
 
 input[type='text'] {
