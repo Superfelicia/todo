@@ -43,10 +43,16 @@
 }
 
 .task-list {
-    background-color: red;
+    background-color: rgba(0,0,0,0);
 }
 
 .completed-task-list {
     background-color: lawngreen;
+}
+
+input[type='text'] {
+    /*background: rgba(0, 0, 0, 0);*/
+    border: none;
+    outline: none;
 }
 
